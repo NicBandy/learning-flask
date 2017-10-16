@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT learningflask:application
+web: waitress-serve --port=$PORT learningflask.wsgi:application
