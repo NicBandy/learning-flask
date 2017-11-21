@@ -8,7 +8,7 @@ html, body, h1 {
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -55,6 +55,7 @@ a {
 
 .section-device img {
   width: 600px;
+  height: 300px;
 }
 
 .btn-primary {
@@ -85,6 +86,39 @@ a {
   text-transform: uppercase;
 }
 
+.btn-signin {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  color: #3372df;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.23px;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position:absolute;
+  top: 3.5%;
+  left: 87%;
+}
+
+.btn-signout {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  color: #3372df;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.23px;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position:absolute;
+  top: 3.5%;
+  left: 80%;
+}
 
 
 /* 
@@ -92,14 +126,15 @@ a {
  */
 
 header {
-  background-color: #fff;
-  padding: 25px 0;
+  background-color: #ADD8E6;
+  padding: 40px 0;
 }
 
 .title {
+  color: #000000;
   float: left;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 27px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
