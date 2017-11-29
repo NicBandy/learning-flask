@@ -98,9 +98,7 @@ a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  position:absolute;
-  top: 3.5%;
-  left: 87%;
+  float:right;
 }
 
 .btn-signout {
@@ -115,9 +113,8 @@ a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  position:absolute;
-  top: 3.5%;
-  left: 80%;
+  float:right;
+  margin-left: 20px;
 }
 
 
@@ -320,4 +317,23 @@ header {
 
 .leaflet-popup-content p {
   margin: 10px 0 ;
+}
+
+
+/* 
+ * Footer
+ */
+
+footer {
+  background-color: #E6E6FA;
+  font-size: 13px;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  border-top: 2px solid black;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  overflow:hidden;
 }

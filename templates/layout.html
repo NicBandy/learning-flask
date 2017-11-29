@@ -12,8 +12,8 @@
     <header>
       <div class="container">
         <a href="{{ url_for('index') }}"> <h1 class="title">Places of Interest</h1></a>
-        <a href="{{ url_for('logout') }}" class="btn-signin" style="float: right;"">Sign out</a> 
-        <a href="{{ url_for('login') }}" class="btn-signout" style="float: right;"">Sign in</a> 
+        <a href="{{ url_for('logout') }}" class="btn-signout" style="float: right;"">Sign out</a> 
+        <a href="{{ url_for('login') }}" class="btn-signin" style="float: right;"">Sign in</a> 
       </div>
     </header>
     
@@ -21,4 +21,8 @@
     {% endblock %}
     
   </body>
+  <footer>
+    This site is developed by Nic Bandy <br>
+    <a href="mailto:bandyne@mail.uc.edu">bandyne@mail.uc.edu</a>
+  </footer>
 </html>
