@@ -322,9 +322,7 @@ header {
 
 /* 
  * Footer
- */
-
-footer {
+ footer {
   background-color: #E6E6FA;
   font-size: 13px;
   text-align: center;
@@ -336,4 +334,32 @@ footer {
   height: 40px;
   width: 100%;
   overflow:hidden;
+}
+ */
+
+.footer {
+	background-color: #E6E6FA;
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+	position: absolute;
+	border-top: 2px solid blue;
+    height:24px; 
+    width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+
+}   
+
+.footer_contents {
+
+    height:24px; 
+    width: 1000px; 
+    margin:auto;
+
 }
